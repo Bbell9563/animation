@@ -1,5 +1,4 @@
-import React, {Component} from 'react'
-
+import React, { Component } from 'react'
 
 class WindowInfo extends Component {
 
@@ -27,14 +26,14 @@ class WindowInfo extends Component {
   render() {
     const { screenWidth, screenHeight } = this.state
     return (
-      <>
-        <div>
-          <p>screenHeight: {screenHeight}</p>
-          <p>screenWidth: {screenWidth}</p>
-        </div>
-      </>
+      <div>
+        <div>screenHeight: {screenHeight}</div>
+        <div>screenWidth: {screenWidth}</div>
+      </div>
     );
   }
 }
+
+
 
 export default WindowInfo
